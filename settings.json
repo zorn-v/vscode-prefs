@@ -1,0 +1,42 @@
+{
+    "git.autofetch": true,
+    "editor.fontSize": 13,
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "file-icons",
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#222",
+        "terminal.selectionBackground": "#ffffff50",
+        "terminal.foreground": "#ddd"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["source.php variable", "punctuation.definition.variable.php"],
+                "settings": {
+                    "foreground": "#00c"
+                }
+            },
+            {
+                "scope": "storage.modifier.php",
+                "settings": {
+                    "foreground": "#000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "support.function.magic.php",
+                    "source.php storage",
+                    "source.php keyword.control",
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "diffEditor.renderSideBySide": true
+}
