@@ -41,9 +41,11 @@
     "diffEditor.renderSideBySide": true,
     "git.enableSmartCommit": true,
     "git.checkoutType": "local",
+    "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": true,
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "workbench.startupEditor": "none"
 }
