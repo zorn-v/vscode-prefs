@@ -38,5 +38,14 @@
     },
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
-    "diffEditor.renderSideBySide": true
+    "diffEditor.renderSideBySide": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "git.checkoutType": "local",
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
 }
