@@ -7,7 +7,8 @@
     "workbench.colorCustomizations": {
         "terminal.background": "#222",
         "terminal.selectionBackground": "#ffffff50",
-        "terminal.foreground": "#ddd"
+        "terminal.foreground": "#ddd",
+        "terminal.ansiWhite": "#ddd"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -28,7 +29,7 @@
                 "scope": [
                     "support.function.magic.php",
                     "source.php storage",
-                    "source.php keyword.control",
+                    "source.php keyword.control"
                 ],
                 "settings": {
                     "fontStyle": "bold"
