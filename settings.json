@@ -48,5 +48,6 @@
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "files.enableTrash": false
 }
