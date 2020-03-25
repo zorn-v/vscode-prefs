@@ -49,5 +49,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "workbench.startupEditor": "none",
-    "files.enableTrash": false
+    "files.enableTrash": false,
+    "window.newWindowDimensions": "maximized"
 }
