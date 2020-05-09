@@ -29,7 +29,8 @@
                 "scope": [
                     "support.function.magic.php",
                     "source.php storage",
-                    "source.php keyword.control"
+                    "source.php keyword.control",
+                    "support.type.property-name.css"
                 ],
                 "settings": {
                     "fontStyle": "bold"
@@ -50,5 +51,12 @@
     "files.trimFinalNewlines": true,
     "workbench.startupEditor": "none",
     "files.enableTrash": false,
-    "window.newWindowDimensions": "maximized"
+    "window.newWindowDimensions": "inherit",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[vue]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    }
 }
