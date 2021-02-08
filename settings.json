@@ -27,6 +27,16 @@
             },
             {
                 "scope": [
+                    "source.php meta.function.parameter.typehinted support.class",
+                    "source.php meta.function support.class",
+                ],
+                "settings": {
+                    "foreground": "#A626A4",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
                     "support.function.magic.php",
                     "source.php storage",
                     "source.php keyword.control",
@@ -42,7 +52,6 @@
     "git.confirmSync": false,
     "diffEditor.renderSideBySide": true,
     "git.enableSmartCommit": true,
-    "git.checkoutType": "local",
     "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": true,
@@ -58,5 +67,11 @@
     },
     "[javascript]": {
         "editor.tabSize": 2
-    }
+    },
+    "php.suggest.basic": false,
+    "editor.selectionClipboard": false,
+    "extensions.ignoreRecommendations": false,
+    "github.gitAuthentication": false,
+    "editor.columnSelection": false,
+    "vetur.ignoreProjectWarning": true,
 }
