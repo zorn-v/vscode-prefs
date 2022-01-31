@@ -1,7 +1,6 @@
 {
     "git.autofetch": true,
     "editor.fontSize": 13,
-    "telemetry.enableTelemetry": false,
     "workbench.iconTheme": "file-icons",
     "workbench.colorTheme": "Atom One Light",
     "workbench.colorCustomizations": {
@@ -74,4 +73,11 @@
     "github.gitAuthentication": false,
     "editor.columnSelection": false,
     "vetur.ignoreProjectWarning": true,
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+    "intelephense.maxMemory": 2048,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "vetur.completion.autoImport": false,
+    "telemetry.telemetryLevel": "off",
 }
