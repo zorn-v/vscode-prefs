@@ -44,6 +44,12 @@
                 "settings": {
                     "fontStyle": "bold"
                 }
+            },
+            {
+                "scope": ["meta.attribute.php"],
+                "settings": {
+                    "foreground": "#777"
+                }
             }
         ]
     },
